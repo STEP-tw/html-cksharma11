@@ -2,6 +2,34 @@
 <html>
   <head>
     <title>crickbuzz</title>
+    <style>
+      table,
+      th,
+      td,div {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      tr#active-batsman{
+        font-weight: bold;
+      }
+      html{
+          background: url('/html-cksharma11/background.jpg');
+      }
+      thead{
+          background: lightgray;
+      }
+      body{
+          width: 80%;
+          background: ghostwhite;
+          margin-left: 10%;
+          margin-right: 10%;
+      }
+      th,
+      td {
+        padding: 15px;
+        text-align: left;
+      }
+    </style>
   </head>
 
   <body>
@@ -11,7 +39,7 @@
       <h2>AUS 151</h2>
       <h1>IND 443/7 decl, 54/5 (27.0 Ovs) CRR: 2</h1>
 
-      <table>
+      <table style="margin-bottom: 1%">
         <thead>
           <tr>
             <th>Batsman</th>
@@ -23,7 +51,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr id="active-batsman">
             <td>Mayank Agarwal *</td>
             <td>28</td>
             <td>79</td>
@@ -72,16 +100,17 @@
         </tbody>
       </table>
 
-      <h3>Key Stats</h3>
-      <p>
-        <b>Partnership</b>: 10(25)<br />
-        <b>Last Wkt</b>: Rohit 5 (18)<br />
-        <b>Ovs Left</b>: 0<br />
-        <b>Last 10 overs</b>: 21 runs, 1 wkts<br />
-        <b>Toss</b>: India (Batting)<br />
-      </p>
-
-      <a href="https://www.cricbuzz.com/" > original crickbuzz </a>
+      <div style="width:30%; margin-top: 1%">
+        <h3>Key Stats</h3>
+        <p>
+          <b>Partnership</b>: 10(25)<br />
+          <b>Last Wkt</b>: Rohit 5 (18)<br />
+          <b>Ovs Left</b>: 0<br />
+          <b>Last 10 overs</b>: 21 runs, 1 wkts<br />
+          <b>Toss</b>: India (Batting)<br />
+        </p>
+      </div>
+      <a href="https://www.cricbuzz.com/"> original crickbuzz </a>
     </center>
   </body>
 </html>
